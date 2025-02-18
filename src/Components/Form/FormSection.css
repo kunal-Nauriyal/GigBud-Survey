@@ -1,0 +1,161 @@
+/* Form Section Container */
+.form-section {
+  background: #1e1e1e;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Message Section */
+.form-message {
+  max-width: 700px;
+}
+
+.form-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+.form-subheading {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Google Form Container */
+.google-form-container {
+  background: #292929;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.2);
+  max-width: 600px;
+  text-align: center;
+}
+
+.google-form-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.google-form-description {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Google Form Button */
+.google-form-button {
+  display: inline-block;
+  padding: 14px 28px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+  background: #ffcc00;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.google-form-button:hover {
+  background: #e6b800;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .form-heading {
+    font-size: 1.8rem;
+  }
+
+  .form-subheading {
+    font-size: 1.1rem;
+  }
+
+  .google-form-container {
+    padding: 25px;
+  }
+
+  .google-form-heading {
+    font-size: 1.6rem;
+  }
+
+  .google-form-description {
+    font-size: 1rem;
+  }
+
+  .google-form-button {
+    font-size: 1.1rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-heading {
+    font-size: 1.6rem;
+  }
+
+  .form-subheading {
+    font-size: 1rem;
+  }
+
+  .google-form-container {
+    padding: 20px;
+  }
+
+  .google-form-heading {
+    font-size: 1.4rem;
+  }
+
+  .google-form-description {
+    font-size: 0.95rem;
+  }
+
+  .google-form-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-heading {
+    font-size: 1.4rem;
+  }
+
+  .form-subheading {
+    font-size: 0.95rem;
+  }
+
+  .google-form-container {
+    padding: 15px;
+  }
+
+  .google-form-heading {
+    font-size: 1.2rem;
+  }
+
+  .google-form-description {
+    font-size: 0.9rem;
+  }
+
+  .google-form-button {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,80 @@
+.header {
+  background-color: #1d1c1c;
+  color: rgb(255, 255, 255);
+  padding: 0.1rem;
+  margin: -8px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the logo circular */
+  object-fit: cover; /* Ensures the image fits well */
+  margin-left: 20px;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.registerLink {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 1.4rem;
+  transition: color 0.3s, text-decoration 0.3s;
+  padding: 10px 40px;
+    border-radius: 25px; /* Rounded corners */
+  font-weight: 600; /* Bold text */
+  border: 1px solid white;
+}
+
+.registerLink:hover {
+ text-decoration: underline;
+ border: 1px solid white;
+  color: #ffffff; /* Dark text on hover */
+  opacity: 0.9; /* Slightly fade on hover */
+  background-color: rgb(41, 42, 42);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    height: 60px; /* Reduce header height for smaller screens */
+  }
+
+  .logo {
+    width: 50px; /* Smaller logo for mobile */
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .registerLink {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+    padding: 8px 16px; /* Smaller padding for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 50px; /* Further reduce header height for very small screens */
+  }
+
+  .logo {
+    width: 40px; /* Even smaller logo for very small screens */
+    height: 30px;
+  }
+
+  .registerLink {
+    font-size: 1rem; /* Smaller font size for very small screens */
+    padding: 6px 12px; /* Smaller padding for very small screens */
+  }
+}

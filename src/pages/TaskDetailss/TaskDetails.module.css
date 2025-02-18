@@ -1,0 +1,39 @@
+.taskDetails {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.taskDetails h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.taskDetails p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.taskDetails button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.taskDetails button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .taskDetails {
+    padding: 1rem;
+  }
+}
